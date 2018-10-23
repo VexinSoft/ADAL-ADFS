@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sidel.HomePage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 10, 0, 0" />
+            <On Platform="Android, UWP" Value="0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="10" Spacing="10">
+            <Label Text="" x:Name="lblname" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Label Text="This is your token" VerticalOptions="Center" HorizontalOptions="Center" />
+            <Label Text="" x:Name="lblToken" VerticalOptions="Center" HorizontalOptions="Center" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
