@@ -12,7 +12,7 @@ namespace Sidel
         public static string ApplicationId = "c2e2bbbe-130c-42f6-b509-3c49f7973fc6";
         public static string TenantUrl = "https://login.microsoftonline.com/2390cbd1-e663-4321-bc93-ba298637ce52";
         public static string ReturnUri = "https://localhost/";
-        public static string GraphResourceUri = "https://graph.microsoft.com/";
+        public static string ResourceUri = "https://dev-cep.crm4.dynamics.com/";
         #endregion
 
         public static AuthenticationResult AuthenticationResult = null;

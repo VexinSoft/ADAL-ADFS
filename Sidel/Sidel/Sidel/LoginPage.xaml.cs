@@ -21,7 +21,7 @@ namespace Sidel
 	    {
 	        try
 	        {
-	            var data = await DependencyService.Get<IAuthenticator>().Authenticate(App.TenantUrl, App.GraphResourceUri, App.ApplicationId, App.ReturnUri);
+	            var data = await DependencyService.Get<IAuthenticator>().Authenticate(App.TenantUrl, App.ResourceUri, App.ApplicationId, App.ReturnUri);
 	            App.AuthenticationResult = data;
 	            NavigateTopage(data);
 	        }
